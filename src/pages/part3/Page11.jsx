@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 
-// Exercício 11 - Mesmo formulário do Exercício 9, usando react-hook-form
 function Page11() {
   const { register, handleSubmit } = useForm()
   const [enviado, setEnviado] = useState(null)
